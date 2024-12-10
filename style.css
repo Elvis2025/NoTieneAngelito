@@ -16,7 +16,7 @@ body {
 
 .form-container {
     position: fixed; /* Fija el contenedor en la pantalla */
-    top: 50%; /* Ajusta según tu diseño */
+    top: 40%; /* Ajusta según tu diseño */
     left: 50%;
     transform: translate(-50%, -50%); /* Centra el formulario en la pantalla */
     width: 90%;
