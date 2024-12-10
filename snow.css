@@ -41,7 +41,7 @@ body {
 
 /* Colores navideños para el formulario */
 .z-index-content {
-    z-index: 2; /* Los elementos del formulario estarán por encima de la animación */
+    z-index: 1; /* Los elementos del formulario estarán por encima de la animación */
 }
 
 h1 {
