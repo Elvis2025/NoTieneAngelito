@@ -13,15 +13,14 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 .form-container {
-    position: fixed; /* Fija el contenedor en la pantalla */
-    top: 50%; /* Ajusta según tu diseño */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centra el formulario en la pantalla */
-    width: 90%;
-    max-width: 400px; /* Ajusta el tamaño según tus necesidades */
-    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    position: fixed !important; /* Fija el contenedor en la pantalla */
+    top: 50% !important; /* Ajusta según tu diseño */
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important; /* Centra el formulario */
+    width: 90% !important;
+    max-width: 400px !important;
+    z-index: 1000 !important; /* Asegúrate de que esté por encima de otros elementos */
 }
 
 .container {
