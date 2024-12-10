@@ -1,0 +1,74 @@
+/* Fondo animado navideño */
+body {
+    background-color: #f0f8ff;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Efecto de nieve */
+#snowContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Coloca la animación de nieve en el fondo */
+}
+
+/* Estilo de copos de nieve */
+.snowflake {
+    position: absolute;
+    top: -10px;
+    z-index: 1; /* Asegura que los copos de nieve estén por debajo del formulario */
+    color: white;
+    font-size: 24px;
+    pointer-events: none;
+    animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        top: -10px;
+        transform: translateX(0);
+    }
+    100% {
+        top: 100%;
+        transform: translateX(100px);
+    }
+}
+
+/* Colores navideños para el formulario */
+.z-index-content {
+    z-index: 2; /* Los elementos del formulario estarán por encima de la animación */
+}
+
+h1 {
+    color: #28a745; /* Color verde para el título */
+}
+
+.text-success {
+    color: #28a745; /* Color verde para las etiquetas */
+}
+
+.text-danger {
+    color: #dc3545; /* Color rojo para las etiquetas */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Botón rojo */
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #28a745; /* Borde verde para el formulario */
+}
+
+.form-select {
+    border: 2px solid #db8d94b4; /* Borde rojo para los select */
+}
+
+label{
+    color: #28a745; /* Color verde para las etiquetas */
+}
