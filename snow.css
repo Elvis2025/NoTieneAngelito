@@ -9,12 +9,13 @@ body {
 
 /* Efecto de nieve */
 #snowContainer {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0; /* Coloca la animación de nieve en el fondo */
+    pointer-events: none;
+    z-index: 10;
 }
 
 /* Estilo de copos de nieve */
