@@ -13,23 +13,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-.form-container {
-    position: fixed; /* Fija el formulario en la pantalla */
-    top: 50%; /* Centra verticalmente */
-    left: 50%; /* Centra horizontalmente */
-    transform: translate(-50%, -50%); /* Asegura un centrado perfecto */
-    width: 90%;
-    max-width: 400px;
-    z-index: 1000; /* Asegura que esté encima de los copos */
-    background-color: white; /* Asegura visibilidad */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    animation: none; /* Desactiva cualquier animación heredada */
-    will-change: transform; /* Optimiza la posición fija */
-    pointer-events: auto; /* Asegura la interacción */
-}
-
 .container {
     background:  transparent;
     padding: 20px;
