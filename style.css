@@ -1,8 +1,7 @@
 /* Fondo animado de nieve */
-/* body {
+body {
     font-family: Arial, sans-serif;
-    /* background-color: #f4f4f9; */
-    /* background-color: #2f2fca;
+    background-color: #f4f4f9;
     color: #333;
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-} */ */
+}
 .form-container {
     position: fixed !important; /* Fija el contenedor en la pantalla */
     top: 50% !important; /* Ajusta según tu diseño */
